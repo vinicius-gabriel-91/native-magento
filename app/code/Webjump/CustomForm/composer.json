@@ -1,0 +1,24 @@
+{
+  "name": "webjump/module-custom-form",
+  "version": "1.0.0",
+  "description": "Creates custom form for validation tests",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": "https://www.webjump.com.br",
+    "authors": [
+        {
+          "email": "dev@webjump.com.br",
+          "name": "Webjump Team"
+        }
+    ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Webjump\\CustomForm\\": ""
+    }
+  }
+}
